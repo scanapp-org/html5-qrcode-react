@@ -13,15 +13,18 @@
   }
 }
 
-.App-header {
+.App-section {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-section-title {
+  font-size: calc(10px + 2vmin);
 }
 
 .App-link {
@@ -35,4 +38,75 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#html5qr-code-full-region {
+  background-color: white;
+  color: #282c34;
+  font-size: 12pt;
+}
+
+@media(max-width: 640px) {
+	#html5qr-code-full-region {
+		width: 300px;
+	}
+}
+
+@media(min-width: 640px) {
+	#html5qr-code-full-region {
+		width: 600px;
+	}
+}
+
+.Result-container {
+  min-width: 600px;
+  margin: auto;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.Result-header {
+  font-size: 16pt;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 800px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+th,
+td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+th {
+  text-align: left;
+}
+thead th {
+  background-color: #55608f;
+}
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+tbody td {
+  position: relative;
+}
+tbody td:hover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -9999px;
+  bottom: -9999px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+}
+
+a {
+  color: white
 }

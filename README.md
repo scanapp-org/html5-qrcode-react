@@ -1,8 +1,10 @@
-# mebjas/html5-qrcode with React
+# html5-qrcode with React
 <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" width="200px"><br>
 [reactjs.org](https://reactjs.org/) | `Support Level` = `Strong`
 
-## How to build a `React Plugin / Component` using [mebjas/html5-qrcode](https://github.com/mebjas/html5-qrcode)
+Example of using [mebjas/html5-qrcode](https://github.com/mebjas/html5-qrcode) in React project with example, source and demo.
+
+## How to build a `React Plugin / Component` using [html5-qrcode](https://github.com/mebjas/html5-qrcode)
 We shall be using React's recommendation on [Integrating with Other Libraries](https://reactjs.org/docs/integrating-with-other-libraries.html) to create a plugin for `React`.
 
 ### Download the latest library

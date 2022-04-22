@@ -7,9 +7,7 @@ import Html5QrcodePlugin from './Html5QrcodePlugin.jsx';
 import ResultContainerPlugin from './ResultContainerPlugin.jsx';
 
 const App = (props) => {
-
     const [decodedResults, setDecodedResults] = useState([]);
-
     const onNewScanResult = (decodedText, decodedResult) => {
         console.log("App [result]", decodedResult);
         setDecodedResults(prev => [...prev, decodedResult]);

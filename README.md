@@ -101,6 +101,7 @@ You can find an example implementation at [example.html](./example.html).
 | ----- | ------ |
 | Andy Tenholder| [@AndyTenholder](https://github.com/AndyTenholder) |
 | Minhaz | [@mebjas](https://github.com/mebjas) |
+| Mohit Tank| [@tankmohit](https://github.com/tankmohit) |
 
 ### Credits
  - [scanapp.org](https://scanapp.org) - Free online barcode and qrcode scanner - scan directly on your web browser using camera or images saved on your device. Works well on smart phones as well as PC or Mac.

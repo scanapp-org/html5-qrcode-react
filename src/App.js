@@ -1,5 +1,7 @@
 import './App.css';
 
+
+
 import React from 'react';
 import Html5QrcodePlugin from './Html5QrcodePlugin.jsx'
 import ResultContainerPlugin from './ResultContainerPlugin.jsx'

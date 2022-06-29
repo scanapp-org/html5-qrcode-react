@@ -1,13 +1,15 @@
 import React from 'react'
 
-const Lookup = () => {
+const Lookup = ({ results }) => {
    const API_URL = 'https://www.googleapis.com/books/v1/volumes?q=isbn:'
+   const test_ISBN = "9781408810552"
+   const full_example_string = "https://www.googleapis.com/books/v1/volumes?q=isbn:9781408810552"
    
   return (
-    <div>Lookup</div>
+    <div>{results[0]}</div>
 
 
-   https://www.googleapis.com/books/v1/volumes?q=isbn:9781408810552
+   
 
 
 

@@ -3,7 +3,9 @@ import './App.css';
 import React from 'react';
 import Html5QrcodePlugin from './Html5QrcodePlugin.jsx'
 import ResultContainerPlugin from './ResultContainerPlugin.jsx'
+import Result2 from './Result2.jsx'
 import HowToUse from './HowToUse.jsx'
+import Lookup from './components/Lookup'
 
 class App extends React.Component {
   constructor(props) {
@@ -30,7 +32,8 @@ class App extends React.Component {
             disableFlip={false}
             qrCodeSuccessCallback={this.onNewScanResult}/>
           <ResultContainerPlugin results={this.state.decodedResults} />
-          <HowToUse />
+          <Result2 results={this.state.decodedResults} />
+         
         </section>
       </div>
     );

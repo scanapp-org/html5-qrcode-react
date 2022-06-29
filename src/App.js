@@ -4,7 +4,6 @@ import React from 'react';
 import Html5QrcodePlugin from './Html5QrcodePlugin.jsx'
 import ResultContainerPlugin from './ResultContainerPlugin.jsx'
 import Result2 from './Result2.jsx'
-import HowToUse from './HowToUse.jsx'
 import Lookup from './components/Lookup'
 
 class App extends React.Component {
@@ -13,6 +12,7 @@ class App extends React.Component {
     this.state = {
       decodedResults: []
     }
+   
 
     // This binding is necessary to make `this` work in the callback.
     this.onNewScanResult = this.onNewScanResult.bind(this);
@@ -33,7 +33,8 @@ class App extends React.Component {
             qrCodeSuccessCallback={this.onNewScanResult}/>
           <ResultContainerPlugin results={this.state.decodedResults} />
           <Result2 results={this.state.decodedResults} />
-         
+          <Lookup results={this.state.decodedResults} />
+          {console.log(this.state.decodedResults)}
         </section>
       </div>
     );

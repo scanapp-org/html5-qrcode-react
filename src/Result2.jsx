@@ -3,6 +3,7 @@
 
 import React from 'react';
 
+
 function filterResults(results) {
     let filteredResults = [];
     for (var i = 0; i < results.length; ++i) {
@@ -17,6 +18,8 @@ function filterResults(results) {
     }
     return filteredResults;
 }
+
+
 
 class ResultContainerTable extends React.Component {
     render() {
@@ -33,10 +36,12 @@ class ResultContainerTable extends React.Component {
                 <tbody>
                     {
                         results.map((result, i) => {
-                            console.log(result);
+                            console.log("Result: " + result.decodedText );
                             return (<tr key={i}>
                                 <td>{i}</td>
-                                <td>{result.decodedText}</td>
+                            
+                                    <td>{result.decodedText}</td>
+                                
                                 <td>{result.result.format.formatName}</td>
                             </tr>);
                         })
@@ -50,12 +55,19 @@ class ResultContainerTable extends React.Component {
 class ResultContainerPlugin extends React.Component {
     render() { 
         let results = filterResults(this.props.results);
-        return (<div className='Result-container'>
-                <div className='Result-header'>Scanned results ({results.length})</div>
-                <div className='Result-section'>
-                    <ResultContainerTable data={this.props.results} />
+        return (
+            <div>
+                <div className='Result-container'>
+                    <div className='Result-header'>Scanned results ({results.length})</div>
+                    <div className='Result-section'>
+                
+                            <ResultContainerTable data={this.props.results} />
+                
+                    </div>
                 </div>
-            </div>);
+               
+            </div>
+            );
     }
 }
 

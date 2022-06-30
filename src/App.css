@@ -51,7 +51,7 @@
 		width: 275px;
 	}
     #qr-shaded-region {
-      width: 0px;
+      width: 0%
     }
     video {
       width: 275px !important;

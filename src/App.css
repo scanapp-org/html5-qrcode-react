@@ -48,13 +48,19 @@
 
 @media(max-width: 640px) {
 	#html5qr-code-full-region {
-		width: 300px;
+		width: 275px;
 	}
+    #qr-shaded-region {
+      width: 0px;
+    }
+    video {
+      width: 275px !important;
+    }
 }
 
 @media(min-width: 640px) {
 	#html5qr-code-full-region {
-		width: 600px;
+		width: 275px;
 	}
 }
 

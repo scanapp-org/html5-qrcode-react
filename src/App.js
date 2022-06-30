@@ -13,7 +13,7 @@ export default function App(props) {
     return (
       <div className="App">
         <section className="App-section">
-          <div className="App-section-title"> Html5-qrcode React demo</div>
+          <div className="App-section-title"> Teacher Library Scanner 1.0</div>
           <br />
           <br />
           <br />
